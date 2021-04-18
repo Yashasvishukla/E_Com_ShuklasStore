@@ -1,0 +1,9 @@
+G:\shuklaStore\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+G:\shuklaStore\Core\bin\Debug\netcoreapp3.1\Core.dll
+G:\shuklaStore\Core\bin\Debug\netcoreapp3.1\Core.pdb
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.csprojAssemblyReference.cache
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.dll
+G:\shuklaStore\Core\obj\Debug\netcoreapp3.1\Core.pdb
