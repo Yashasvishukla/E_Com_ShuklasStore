@@ -26,6 +26,7 @@ namespace Infrastructure.Data
                 .Include(p => p.ProductBrand)
                 .Include(p => p.ProductType)
                 .FirstOrDefaultAsync(prod => prod.Id == id);
+                
             return product; 
         }
 
