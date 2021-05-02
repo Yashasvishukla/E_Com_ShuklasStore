@@ -1,17 +1,17 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Dtos;
+using API.Errors;
 using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class ProductController : ControllerBase
+    public class ProductController : BaseApiController
     {
         // Since we have define the type of T we have to create three fields for each of the collections
         private readonly IGenericRepository<Product> _productRepo;
@@ -37,10 +37,13 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> GetProduct(int id)
         {
             var spec = new ProductsWithTypeAndBrandSpecification(id);
             var product = await _productRepo.GetEntityWithSpec(spec);
+            if(product == null) return NotFound(new ApiResponse(404));
             var productToReturn = _mapper.Map<ProductToReturnDto>(product);
             return Ok(productToReturn);
         }
