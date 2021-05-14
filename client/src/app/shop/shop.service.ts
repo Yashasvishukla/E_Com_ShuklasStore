@@ -56,4 +56,8 @@ export class ShopService {
     return this.http.get<IType[]>(this.baseUrl + 'product/types');
   }
 
+  getProduct(id: number): Observable<IProduct>
+  {
+    return this.http.get<IProduct>(this.baseUrl + 'product/' + id);
+  }
 }

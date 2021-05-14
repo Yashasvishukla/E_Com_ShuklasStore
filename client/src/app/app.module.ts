@@ -8,6 +8,7 @@ import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 import { HttpClientModule } from '@angular/common/http';
 import { ShopModule } from './shop/shop.module';
+import { HomeModule } from './home/home.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { ShopModule } from './shop/shop.module';
     BrowserAnimationsModule,
     SharedModule,
     CoreModule,
-    ShopModule,
+    HomeModule,
     HttpClientModule
   ],
   providers: [],

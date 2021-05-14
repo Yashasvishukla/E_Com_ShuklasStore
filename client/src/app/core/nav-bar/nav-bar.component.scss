@@ -10,3 +10,12 @@
     color: white;
     background-color: blue;
 }
+
+a {
+    color: #343a40;
+    text-decoration: none;
+
+    &.active {
+        color: orange;
+    }
+}
