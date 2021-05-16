@@ -21,11 +21,14 @@
     "@angular/router": "~11.2.13",
     "@schematics/angular": "^11.2.12",
     "bootstrap": "^5.0.0",
+    "bootswatch": "^5.0.1",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^5.5.0",
+    "ngx-spinner": "^11.0.1",
     "ngx-toastr": "^13.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "xng-breadcrumb": "^6.7.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
