@@ -105,6 +105,10 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.14, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.14, )"
             }
           },
           "imports": [

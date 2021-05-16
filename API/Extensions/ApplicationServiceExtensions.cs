@@ -14,6 +14,9 @@ namespace API.Extensions
              services.AddScoped<IProductRepository,ProductRepository>();
             // Adding Generic Repository to the service (Important as well as new)
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            // Adding BasketRepository to the serivce
+            services.AddScoped<IBasketRepository,BasketRepository>();
             services.Configure<ApiBehaviorOptions>( options =>
             {
                 options.InvalidModelStateResponseFactory =  actionContext => {
