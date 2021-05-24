@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "sw5AwppDiIhXrDc4TXApPuaqDxUe98T7J5DiYftjMNXP4gMrKX22lOhYfbbKyB5p0hzeAwMU0TT8HlPcBb8SZw==",
+  "dgSpecHash": "ggKdyK69M9u3DbSwSqzoHkHQZ3F2otlIE1+Ewo0eZsvgND6sPSNyV2gRvzentHFm9PmYG/MulOZMRbOQ9bBVEg==",
   "success": true,
   "projectFilePath": "G:\\shuklaStore\\Core\\Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.6\\microsoft.aspnetcore.cryptography.internal.5.0.6.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.6\\microsoft.aspnetcore.cryptography.keyderivation.5.0.6.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.6\\microsoft.extensions.identity.core.5.0.6.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.6\\microsoft.extensions.identity.stores.5.0.6.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\yasha\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

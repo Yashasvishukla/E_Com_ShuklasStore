@@ -28,9 +28,6 @@ G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relatio
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -93,3 +90,17 @@ G:\shuklaStore\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Syste
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 G:\shuklaStore\API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\shuklaStore\API\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
