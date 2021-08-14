@@ -2,6 +2,7 @@ using System.Linq;
 using API.Errors;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +18,10 @@ namespace API.Extensions
 
             // Adding BasketRepository to the serivce
             services.AddScoped<IBasketRepository,BasketRepository>();
+            
+            // Create an instance when we use it Dependency Injection
+            services.AddScoped<ITokenService,TokenService>();
+            
             services.Configure<ApiBehaviorOptions>( options =>
             {
                 options.InvalidModelStateResponseFactory =  actionContext => {
